@@ -2,12 +2,52 @@
   "users": [
     {
       "name": "admin",
-      "lastName": "admin",
-      "email": "fake@mail.com",
+      "lastName": "nuevonombre",
       "password": "123456",
-      "token": "jgfdsSfvcdskjdsfDSF435324ikdsad",
+      "token": "jdsgfjkldkbnvdkm",
+      "email": "fake@mail.com",
       "role": "ADMIN",
       "id": 1
+    },
+    {
+      "name": "admin",
+      "lastName": "nuevonombre",
+      "email": "employee@mail.com",
+      "password": "123456",
+      "token": "321473rjkehwu",
+      "role": "EMPLOYEE",
+      "id": 2
+    },
+    {
+      "name": "Roberto",
+      "lastName": "Rosas",
+      "email": "student@mail.com",
+      "password": "123456",
+      "token": "321473rBVCBjkehwu",
+      "role": "STUDENT",
+      "id": 3
+    }
+  ],
+  "enrollments": [
+    {
+      "id": 1,
+      "courseId": 1,
+      "userId": 3
+    },
+    {
+      "id": 2,
+      "courseId": 2,
+      "userId": 3
+    }
+  ],
+  "courses": [
+    {
+      "id": 1,
+      "name": "Photoshop"
+    },
+    {
+      "id": 2,
+      "name": "Angular"
     }
   ]
 }
